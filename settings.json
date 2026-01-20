@@ -1,5 +1,5 @@
 {
-  "theme": "3024-night",
+  "theme": "eclipse",
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
@@ -57,7 +57,7 @@
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": true,
+  "darkMode": false,
   "lang": "en",
   "autoFormat": false,
   "mask": false,
