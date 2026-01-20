@@ -52,7 +52,7 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
-  "heightScale": 100,
+  "heightScale": 87.24973656480506,
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
@@ -80,6 +80,6 @@
   "secrets": [],
   "git": {
     "enabled": false,
-    "remoteUrl": ""
+    "remoteUrl": "git@github.com:LiXingA/LiXingA.github.io.git"
   }
 }
