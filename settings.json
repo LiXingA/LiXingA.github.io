@@ -80,6 +80,6 @@
   "secrets": [],
   "git": {
     "enabled": false,
-    "remoteUrl": "git@github.com:LiXingA/LiXingA.github.io.git"
+    "remoteUrl": ""
   }
 }
