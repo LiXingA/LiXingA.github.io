@@ -33,5 +33,5 @@ viewof controls = {
 count
 ```
 
-<!--{"type":"paragraph"}-->
+<!--{"pinCode":false,"dname":"c225235c-e581-4996-8b2c-210890f6f035","codeMode":"markdown"}-->
 **Squared:** ${count \* count}
