@@ -1,5 +1,5 @@
 {
-  "theme": "eclipse",
+  "theme": "3024-night",
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
@@ -52,12 +52,12 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
-  "heightScale": 100,
+  "heightScale": 87.24973656480506,
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": false,
+  "darkMode": true,
   "lang": "en",
   "autoFormat": false,
   "mask": false,
@@ -80,6 +80,6 @@
   "secrets": [],
   "git": {
     "enabled": false,
-    "remoteUrl": ""
+    "remoteUrl": "git@github.com:LiXingA/LiXingA.github.io.git"
   }
 }
