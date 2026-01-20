@@ -1,12 +1,20 @@
 {
+<<<<<<< HEAD
   "theme": "eclipse",
+=======
+  "theme": "3024-night",
+>>>>>>> fd24800e6d59b1eb435c5cb6b5ed4dd4bafb3ffb
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
     "None": {
       "index": 0,
+<<<<<<< HEAD
       "w": 240
+=======
+      "w": 378
+>>>>>>> fd24800e6d59b1eb435c5cb6b5ed4dd4bafb3ffb
     },
     "Folder": {
       "index": 1,
@@ -52,12 +60,20 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
+<<<<<<< HEAD
   "heightScale": 93.38929695697796,
+=======
+  "heightScale": 100,
+>>>>>>> fd24800e6d59b1eb435c5cb6b5ed4dd4bafb3ffb
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
+<<<<<<< HEAD
   "darkMode": false,
+=======
+  "darkMode": true,
+>>>>>>> fd24800e6d59b1eb435c5cb6b5ed4dd4bafb3ffb
   "lang": "en",
   "autoFormat": false,
   "mask": false,
