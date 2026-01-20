@@ -1,12 +1,12 @@
 {
-  "theme": "eclipse",
+  "theme": "3024-night",
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
     "None": {
       "index": 0,
-      "w": 240
+      "w": 420
     },
     "Folder": {
       "index": 1,
@@ -18,7 +18,7 @@
     },
     "Settings": {
       "index": 3,
-      "w": 560
+      "w": 617
     },
     "Panels": {
       "index": 4,
@@ -52,12 +52,12 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
-  "heightScale": 87.24973656480506,
+  "heightScale": 100,
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": false,
+  "darkMode": true,
   "lang": "en",
   "autoFormat": false,
   "mask": false,
