@@ -1,0 +1,28 @@
+<!--{"pinCode":true,"dname":"a3865763-dbf2-4099-8993-22cd909a469c","codeMode":"js"}-->
+```js
+123456
+```
+
+<!--{"pinCode":false,"dname":"3e64983a-86c1-46aa-83dd-d0a88b0f227a","codeMode":"js"}-->
+<div style="color: grey; font: 13px/25.5px var(--sans-serif); text-transform: uppercase;"><h1 style="display: none;">Plot: Histogram</h1><a href="/graphxr/plot">Observable Plot</a> › <a href="/graphxr/@observablehq/plot-gallery">Gallery</a></div>
+
+# Histogram
+
+Using the [bin transform](/plot/transforms/bin) and [rect mark](/plot/marks/rect).
+
+<!--{"pinCode":false,"dname":"c1e6f863-c7f7-4571-aceb-765b192cc9d0","codeMode":"js"}-->
+```js
+data = (FileAttachment("penguins.csv").csv({typed: true}))
+```
+
+<!--{"pinCode":false,"dname":"eee26a64-81ce-493e-aac7-f3ee54e6f9ad","codeMode":"js"}-->
+```js
+Plot.plot({
+  y: {grid: true},
+  color: {legend: true},
+  marks: [
+    Plot.rectY(data, Plot.binX({y: "count"}, {x: "flipper_length_mm", fill: "sex"})),
+    Plot.ruleY([0])
+  ]
+})
+```
