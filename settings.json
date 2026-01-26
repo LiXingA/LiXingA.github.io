@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 617
+      "w": 729
     },
     "Help": {
       "index": 2,
@@ -18,7 +18,7 @@
     },
     "Settings": {
       "index": 3,
-      "w": 554
+      "w": 662
     },
     "Panels": {
       "index": 4,
@@ -80,6 +80,6 @@
   "secrets": [],
   "git": {
     "enabled": false,
-    "remoteUrl": "git@github.com:LiXingA/LiXingA.github.io.git"
+    "remoteUrl": ""
   }
 }
