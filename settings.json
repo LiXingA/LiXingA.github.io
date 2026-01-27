@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 400
+      "w": 655
     },
     "Help": {
       "index": 2,
@@ -56,12 +56,12 @@
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
-  "markText": true,
+  "markText": false,
   "darkMode": false,
   "lang": "en",
   "autoFormat": false,
   "mask": true,
-  "displayHistory": true,
+  "displayHistory": false,
   "reserveSpace": true,
   "minimap": false,
   "imageQuality": 0.5,
@@ -70,7 +70,7 @@
   "autoSave": false,
   "autoSaveInSecond": 10,
   "tagVersionPeriod": 10,
-  "notice_mode": "success",
+  "notice_mode": "warning",
   "usersSharePermission": {},
   "globalFilters": {},
   "databases": [],
