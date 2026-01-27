@@ -1,6 +1,6 @@
 {
-  "theme": "cobalt",
-  "lightTheme": "cobalt",
+  "theme": "3024-night",
+  "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
@@ -57,7 +57,7 @@
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": false,
+  "darkMode": true,
   "lang": "en",
   "autoFormat": false,
   "mask": false,
