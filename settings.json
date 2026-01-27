@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 651
+      "w": 400
     },
     "Help": {
       "index": 2,
@@ -22,7 +22,7 @@
     },
     "Panels": {
       "index": 4,
-      "w": 743
+      "w": 400
     },
     "FileAttachments": {
       "index": 5,
@@ -64,13 +64,13 @@
   "displayHistory": true,
   "reserveSpace": true,
   "minimap": false,
-  "imageQuality": 1,
+  "imageQuality": 0.5,
   "jsPdfFont": "",
   "draggableEditor": false,
   "autoSave": false,
   "autoSaveInSecond": 10,
-  "tagVersionPeriod": 11,
-  "notice_mode": "info",
+  "tagVersionPeriod": 10,
+  "notice_mode": "success",
   "usersSharePermission": {},
   "globalFilters": {},
   "databases": [],
