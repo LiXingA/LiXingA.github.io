@@ -6,11 +6,7 @@
   "drawerType": {
     "None": {
       "index": 0,
-<<<<<<< HEAD
       "w": 420
-=======
-      "w": 480
->>>>>>> 9adeeb518b5af7cfe17e2b64aa02c2f483574f3a
     },
     "Folder": {
       "index": 1,
@@ -22,11 +18,7 @@
     },
     "Settings": {
       "index": 3,
-<<<<<<< HEAD
       "w": 619
-=======
-      "w": 400
->>>>>>> 9adeeb518b5af7cfe17e2b64aa02c2f483574f3a
     },
     "Panels": {
       "index": 4,
@@ -88,10 +80,6 @@
   "secrets": [],
   "git": {
     "enabled": false,
-<<<<<<< HEAD
-    "remoteUrl": "git@github.com:LiXingA/LiXingA.github.io.git"
-=======
     "remoteUrl": ""
->>>>>>> 9adeeb518b5af7cfe17e2b64aa02c2f483574f3a
   }
 }
