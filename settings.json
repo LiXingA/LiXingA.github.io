@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "theme": "cobalt",
-  "lightTheme": "cobalt",
-=======
   "theme": "3024-night",
   "lightTheme": "eclipse",
->>>>>>> 80373dff7f7db09be5474477f9920721ba0b7626
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
