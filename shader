@@ -1,1 +1,1 @@
-{"blocks":[{"type":"codeTool","data":{"codeData":{"value":"md`#### shader `","pinCode":false,"dname":"9e9a9738-aa62-43f2-9867-fd3e1b0ef00e","codeMode":"javascript2"}}}],"version":"2.19.1"}
+{"blocks":[{"type":"codeTool","data":{"codeData":{"value":"md`#### shader `","pinCode":false,"dname":"9e9a9738-aa62-43f2-9867-fd3e1b0ef00e","codeMode":"javascript2"}}},{"type":"codeTool","data":{"codeData":{"value":"123456","pinCode":true,"dname":"6a159de8-3689-483f-a113-223ee776b1ae","codeMode":"javascript2"}}}],"version":"2.19.1"}
