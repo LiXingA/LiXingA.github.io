@@ -1,6 +1,6 @@
 {
-  "theme": "eclipse",
-  "lightTheme": "eclipse",
+  "theme": "cobalt",
+  "lightTheme": "cobalt",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 400
+      "w": 783
     },
     "Help": {
       "index": 2,
