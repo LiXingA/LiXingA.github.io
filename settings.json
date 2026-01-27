@@ -1,5 +1,5 @@
 {
-  "theme": "eclipse",
+  "theme": "3024-night",
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 570
+      "w": 714
     },
     "Help": {
       "index": 2,
@@ -57,7 +57,7 @@
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": false,
+  "darkMode": true,
   "lang": "en",
   "autoFormat": false,
   "mask": false,
