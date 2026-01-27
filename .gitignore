@@ -1,3 +1,4 @@
 *.ver
 .DS_Store
 node_modules
+settings.json
