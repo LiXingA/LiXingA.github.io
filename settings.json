@@ -6,7 +6,7 @@
   "drawerType": {
     "None": {
       "index": 0,
-      "w": 480
+      "w": 420
     },
     "Folder": {
       "index": 1,
@@ -60,10 +60,10 @@
   "darkMode": true,
   "lang": "en",
   "autoFormat": false,
-  "mask": true,
-  "displayHistory": true,
+  "mask": false,
+  "displayHistory": false,
   "reserveSpace": false,
-  "minimap": true,
+  "minimap": false,
   "imageQuality": 0.5,
   "jsPdfFont": "",
   "draggableEditor": false,
