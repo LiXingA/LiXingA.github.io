@@ -1,6 +1,6 @@
 {
-  "theme": "elegant",
-  "lightTheme": "elegant",
+  "theme": "eclipse",
+  "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
@@ -62,7 +62,7 @@
   "autoFormat": false,
   "mask": true,
   "displayHistory": false,
-  "reserveSpace": false,
+  "reserveSpace": true,
   "minimap": false,
   "imageQuality": 0.5,
   "jsPdfFont": "",
