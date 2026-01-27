@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 714
+      "w": 385
     },
     "Help": {
       "index": 2,
@@ -60,7 +60,7 @@
   "darkMode": true,
   "lang": "en",
   "autoFormat": false,
-  "mask": false,
+  "mask": true,
   "displayHistory": false,
   "reserveSpace": false,
   "minimap": false,
