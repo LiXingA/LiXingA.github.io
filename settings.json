@@ -10,7 +10,7 @@
     },
     "Folder": {
       "index": 1,
-      "w": 729
+      "w": 565
     },
     "Help": {
       "index": 2,
@@ -52,7 +52,7 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
-  "heightScale": 100,
+  "heightScale": 93.38929695697796,
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
