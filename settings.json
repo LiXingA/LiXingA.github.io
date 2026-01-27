@@ -1,5 +1,5 @@
 {
-  "theme": "3024-night",
+  "theme": "eclipse",
   "lightTheme": "eclipse",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
@@ -18,7 +18,7 @@
     },
     "Settings": {
       "index": 3,
-      "w": 662
+      "w": 477
     },
     "Panels": {
       "index": 4,
@@ -57,13 +57,13 @@
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": true,
+  "darkMode": false,
   "lang": "en",
   "autoFormat": false,
   "mask": true,
-  "displayHistory": false,
-  "reserveSpace": false,
-  "minimap": false,
+  "displayHistory": true,
+  "reserveSpace": true,
+  "minimap": true,
   "imageQuality": 0.5,
   "jsPdfFont": "",
   "draggableEditor": false,
