@@ -1,6 +1,6 @@
 {
-  "theme": "3024-night",
-  "lightTheme": "eclipse",
+  "theme": "cobalt",
+  "lightTheme": "cobalt",
   "darkTheme": "3024-night",
   "readOnlyChecked": false,
   "drawerType": {
@@ -18,7 +18,7 @@
     },
     "Settings": {
       "index": 3,
-      "w": 400
+      "w": 726
     },
     "Panels": {
       "index": 4,
@@ -57,17 +57,17 @@
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
-  "darkMode": true,
+  "darkMode": false,
   "lang": "en",
   "autoFormat": false,
-  "mask": true,
-  "displayHistory": true,
-  "reserveSpace": true,
-  "minimap": true,
+  "mask": false,
+  "displayHistory": false,
+  "reserveSpace": false,
+  "minimap": false,
   "imageQuality": 0.5,
   "jsPdfFont": "",
-  "draggableEditor": true,
-  "autoSave": true,
+  "draggableEditor": false,
+  "autoSave": false,
   "autoSaveInSecond": 10,
   "tagVersionPeriod": 10,
   "notice_mode": "info",
