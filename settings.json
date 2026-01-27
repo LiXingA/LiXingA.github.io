@@ -6,11 +6,11 @@
   "drawerType": {
     "None": {
       "index": 0,
-      "w": 420
+      "w": 480
     },
     "Folder": {
       "index": 1,
-      "w": 385
+      "w": 400
     },
     "Help": {
       "index": 2,
@@ -18,7 +18,7 @@
     },
     "Settings": {
       "index": 3,
-      "w": 477
+      "w": 400
     },
     "Panels": {
       "index": 4,
@@ -52,7 +52,7 @@
   "published": [],
   "extension": true,
   "widthScale": 100,
-  "heightScale": 93.38929695697796,
+  "heightScale": 100,
   "lineNumbers": false,
   "vimEnabled": false,
   "autoClosePairs": false,
@@ -60,14 +60,14 @@
   "darkMode": false,
   "lang": "en",
   "autoFormat": false,
-  "mask": true,
-  "displayHistory": true,
-  "reserveSpace": true,
-  "minimap": true,
+  "mask": false,
+  "displayHistory": false,
+  "reserveSpace": false,
+  "minimap": false,
   "imageQuality": 0.5,
   "jsPdfFont": "",
   "draggableEditor": false,
-  "autoSave": false,
+  "autoSave": true,
   "autoSaveInSecond": 10,
   "tagVersionPeriod": 10,
   "notice_mode": "info",
