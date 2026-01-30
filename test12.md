@@ -1,5 +1,5 @@
 <!--{"pinCode":false,"dname":"e7b10445-cafd-4b4c-9014-d3e2f80dd59c","codeMode":"markdown"}-->
-# Input + Chartaaaa
+# Input + Chartaaaabbb
 
 Using [Inputs.range](https://github.com/observablehq/inputs/blob/main/README.md#range) and [Plot](/@observablehq/plot).
 
