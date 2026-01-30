@@ -1,0 +1,28 @@
+<!--{"pinCode":true,"dname":"69228c89-c440-45a7-8ba0-a93b8343640e","codeMode":"markdown"}-->
+##### abc
+
+####
+
+<!--{"pinCode":false,"dname":"98b10018-03f9-4cce-a71c-b7899172b2de","codeMode":"markdown"}-->
+# Search + Table
+
+Using [Inputs.search](https://github.com/observablehq/inputs/blob/main/README.md#search) and [Inputs.table](https://github.com/observablehq/inputs/blob/main/README.md#table). Data from <a href="https://catalog.data.gov/dataset/most-popular-baby-names" target="_blank" title="California Department of Public Health">CDPH</a>.
+
+<!--{"pinCode":false,"dname":"934f751c-48dd-4c42-9b3c-dafcb93ef57a","codeMode":"js"}-->
+```js
+data = (FileAttachment("baby_names.csv").csv({typed: true}))
+```
+
+<!--{"pinCode":false,"dname":"492283f0-a46a-4aaa-8668-ae0451eecdfa","codeMode":"js"}-->
+```js
+viewof search = (Inputs.search(data))
+```
+
+<!--{"pinCode":false,"dname":"7e03854b-fb6a-46d6-8bcc-944ef2a8f8d3","codeMode":"js"}-->
+```js
+Inputs.table(search, {
+  format: {
+    Year: d3.format("d") // format as "1960" rather than "1,960"
+  }
+})
+```
