@@ -1,9 +1,16 @@
-2323
+# <<<<<<< HEAD 2323
+
+<!--{"pinCode":true,"dname":"c1918cd7-3e3a-42ba-a11f-69ca3f97c278","codeMode":"js"}-->
+```js
+123
+```
 
 <!--{"pinCode":false,"dname":"121b641a-d327-4707-878b-6686f2729d10","codeMode":"markdown"}-->
+> > > > > > > d3bb76fed00c0798ced868f35ffa53a66b9852fe
+
 # SQL + Chart
 
-Using ${Link("sqlite/sqlite", "SQLite")} and [Plot](https://observablehq.com/@observablehq/plot-gallery). Other ${Link("databases/databases", "database clients")} are available.
+Using ${Link("sqlite/sqlite", "SQLite")} and undefined. Other ${Link("databases/databases", "database clients")} are available.
 
 <!--{"pinCode":false,"dname":"c66daf02-531b-436f-9ca0-5359d3a5ff0b","codeMode":"js"}-->
 ```js
