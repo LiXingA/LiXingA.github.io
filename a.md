@@ -1,1 +1,34 @@
-{"blocks":[{"type":"codeTool","data":{"codeData":{"value":"md`# SQL + Chart\n\nUsing ${Link(\"sqlite/sqlite\", \"SQLite\")} and [Plot](https://observablehq.com/@observablehq/plot-gallery). Other ${Link(\"databases/databases\", \"database clients\")} are available.`","pinCode":false,"dname":"121b641a-d327-4707-878b-6686f2729d10","codeMode":"javascript2"}}},{"type":"codeTool","data":{"codeData":{"value":"database = (FileAttachment(\"chinook.db\").sqlite())","pinCode":false,"dname":"c66daf02-531b-436f-9ca0-5359d3a5ff0b","codeMode":"javascript2"}}},{"type":"codeTool","data":{"codeData":{"value":"query = (__query.sql(database,invalidation,\"database\")`SELECT * FROM tracks`)","pinCode":false,"dname":"1d2b8867-9448-4c93-bbdd-c52286b39d2d","codeMode":"javascript2"}}},{"type":"codeTool","data":{"codeData":{"value":"Plot.plot({\n  caption: \"What are the common lengths of songs?\",\n  x: {\n    transform: d => d / 1000 / 60,\n    label: \"Minutes (s) →\"\n  },\n  marks: [\n    Plot.ruleY([0]),\n    Plot.rectY(query, Plot.binX({y: \"sum\"}, {x: \"Milliseconds\"}))\n  ]\n})","pinCode":false,"dname":"87d433b7-82f2-4ac7-8ab3-d5bd374741eb","codeMode":"javascript2"}}}],"version":"2.19.1"}
+<!--{"pinCode":true,"dname":"c1918cd7-3e3a-42ba-a11f-69ca3f97c278","codeMode":"js"}-->
+```js
+123
+```
+
+<!--{"pinCode":false,"dname":"121b641a-d327-4707-878b-6686f2729d10","codeMode":"markdown"}-->
+# SQL + Chart
+
+Using ${Link("sqlite/sqlite", "SQLite")} and [Plot](https://observablehq.com/@observablehq/plot-gallery). Other ${Link("databases/databases", "database clients")} are available.
+
+<!--{"pinCode":false,"dname":"c66daf02-531b-436f-9ca0-5359d3a5ff0b","codeMode":"js"}-->
+```js
+database = (FileAttachment("chinook.db").sqlite())
+```
+
+<!--{"pinCode":false,"dname":"1d2b8867-9448-4c93-bbdd-c52286b39d2d","codeMode":"js"}-->
+```js
+query = (__query.sql(database,invalidation,"database")`SELECT * FROM tracks`)
+```
+
+<!--{"pinCode":false,"dname":"87d433b7-82f2-4ac7-8ab3-d5bd374741eb","codeMode":"js"}-->
+```js
+Plot.plot({
+  caption: "What are the common lengths of songs?",
+  x: {
+    transform: d => d / 1000 / 60,
+    label: "Minutes (s) →"
+  },
+  marks: [
+    Plot.ruleY([0]),
+    Plot.rectY(query, Plot.binX({y: "sum"}, {x: "Milliseconds"}))
+  ]
+})
+```
