@@ -24,7 +24,39 @@
   "tagVersionPeriod": 10,
   "notice_mode": "info",
   "usersSharePermission": {},
-  "globalFilters": {},
+  "globalFilters": {
+    "files#files/Pie-20251215.csv": {
+      "selectedCategoryFrom": "files",
+      "selectedCategory": "files/Pie-20251215.csv",
+      "tb": {
+        "filters": [
+          {
+            "columnName": "y",
+            "association": "gte",
+            "value": 110
+          },
+          {
+            "columnName": "y",
+            "association": "lt",
+            "value": 642
+          },
+          {
+            "columnName": "y",
+            "association": "lt",
+            "value": 213.84615384615387
+          },
+          {}
+        ],
+        "sorts": [
+          {}
+        ],
+        "slice": {
+          "to": 1000,
+          "from": 0
+        }
+      }
+    }
+  },
   "databases": [],
   "aiModels": [],
   "selectedAiIndex": 0,
