@@ -1,16 +1,19 @@
+<!--{"pinCode":true,"dname":"b27f0e72-7cb5-41e3-bd9c-c869338d9292","codeMode":"js"}-->
+```js
+y ="hello I'm y!"
+```
+
 <!--{"pinCode":true,"dname":"a3865763-dbf2-4099-8993-22cd909a469c","codeMode":"js"}-->
 ```js
 123456
 ```
 
 <!--{"pinCode":false,"dname":"3e64983a-86c1-46aa-83dd-d0a88b0f227a","codeMode":"markdown"}-->
-<div style="color: grey; font: 13px/25.5px var(--sans-serif); text-transform: uppercase;"><h1 style="display: none;">Plot: Histogram</h1><a href="/graphxr/graphxr/plot">Observable Plot</a> › <a href="/graphxr/graphxr/@observablehq/plot-gallery">Gallery</a></div>
+<div style="color: grey; font: 13px/25.5px var(--sans-serif); text-transform: uppercase;"><h1 style="display: none;">Plot: Histogram</h1><a href="/graphxr/graphxr/graphxr/plot">Observable Plot</a> › <a href="/graphxr/graphxr/graphxr/@observablehq/plot-gallery">Gallery</a></div>
 
-<!--{"type":"header","level":1}-->
 # Histogram
 
-<!--{"type":"paragraph"}-->
-Using the [bin transform](/plot/transforms/bin) and [rect mark](/plot/marks/rect).
+Using the undefined and undefined.
 
 <!--{"pinCode":false,"dname":"c1e6f863-c7f7-4571-aceb-765b192cc9d0","codeMode":"js"}-->
 ```js
