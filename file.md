@@ -1,0 +1,31 @@
+<!--{"pinCode":false,"dname":"439374d6-f550-4d2b-bad4-8a29d4fd73be","codeMode":"markdown"}-->
+# Google Sheets Starter
+
+Paste a shared Google Sheets URL below to fetch it as a CSV. This example shows [First Ladies of the United States](https://en.wikipedia.org/wiki/List_of_first_ladies_of_the_United_States).
+
+<!--{"pinCode":false,"dname":"6954aef3-e22f-46b0-a807-0f45a08ba230","codeMode":"js"}-->
+```js
+url = ("https://docs.google.com/spreadsheets/d/1ih4V4CumuIl5ZynobsazNzGiaPrE2V2Dpt13FI22XNU/edit#gid=0")
+```
+
+<!--{"pinCode":false,"dname":"2fe74060-c40d-4c3d-baaf-3d0801d6f6bf","codeMode":"js"}-->
+```js
+data = (d3.csv(getCsvUrl(url), d3.autoType))
+```
+
+<!--{"pinCode":false,"dname":"d03de98e-74dd-4415-abce-328e1cbabc38","codeMode":"js"}-->
+```js
+viewof table = Inputs.table(data)
+```
+
+<!--{"pinCode":false,"dname":"550661bc-2c8d-4f0e-a965-b447d4533169","codeMode":"markdown"}-->
+---
+<!--{"pinCode":false,"dname":"29b41b94-97f8-43d7-aac0-35c2ecdd0273","codeMode":"js"}-->
+```js
+getCsvUrl = (url => {
+  url = new URL(url);
+  const id = url.pathname.split("/")[3]
+  const gid = new URLSearchParams(url.hash.slice(1)).get("gid") || 0;
+  return `https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=${gid}`
+})
+```

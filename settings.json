@@ -38,12 +38,7 @@
           {
             "columnName": "y",
             "association": "lt",
-            "value": 642
-          },
-          {
-            "columnName": "y",
-            "association": "lt",
-            "value": 213.84615384615387
+            "value": 580.4000000000001
           },
           {}
         ],
