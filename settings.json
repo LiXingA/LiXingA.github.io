@@ -5,7 +5,7 @@
   "readOnlyChecked": false,
   "published": [],
   "extension": true,
-  "lineNumbers": false,
+  "lineNumbers": true,
   "vimEnabled": false,
   "autoClosePairs": false,
   "markText": true,
