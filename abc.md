@@ -1,3 +1,18 @@
+<!--{"pinCode":true,"dname":"d4b1cebf-7940-4ebf-8ade-485bd2600ac9","codeMode":"javascript"}-->
+```javascript
+var a = 123
+```
+
+<!--{"pinCode":true,"dname":"e9198995-9487-40ec-88a9-3e3dce429347","codeMode":"jsx"}-->
+```jsx
+12456
+```
+
+<!--{"pinCode":true,"dname":"8b7e2244-ae8d-4c6e-a86e-c53e0277c86b","codeMode":"js"}-->
+```js
+a = 123
+```
+
 ``` antChart
 {
  "chartConfigs": {
@@ -655,10 +670,13 @@
 }
 ```
 
+<!--{"pinCode":false,"dname":"bd2b9d7d-1064-42bd-8e88-c5f3c2b6b939","codeMode":"markdown"}-->
 ##### abc
 
+<!--{"pinCode":false,"dname":"70da9823-259b-42c3-ac9f-8d02cebb4fba","codeMode":"markdown"}-->
 # Search + Table
 
+<!--{"pinCode":false,"dname":"2f437ade-4b5c-447d-b507-e07cd395b00b","codeMode":"markdown"}-->
 Using undefined and undefined. Data from <a href="https://catalog.data.gov/dataset/most-popular-baby-names" target="_blank" title="California Department of Public Health">CDPH</a>.
 
 <!--{"pinCode":false,"dname":"934f751c-48dd-4c42-9b3c-dafcb93ef57a","codeMode":"js"}-->
