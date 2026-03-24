@@ -1,3 +1,11 @@
+```sql
+{"db":"files$penguins$csv","selectedTable":"files$penguins$csv","selectedCategoryFrom":"files","selectedCategory":"files/penguins.csv","value":"SELECT * FROM `files$penguins$csv` t LIMIT 100","pinCode":true,"codeMode":"sql","sqlType":"sqlite"}
+```
+
+```sql
+{"value":"","pinCode":true,"codeMode":"sql","tableName":"","dbTable":true}
+```
+
 <!--{"pinCode":true,"dname":"d4b1cebf-7940-4ebf-8ade-485bd2600ac9","codeMode":"javascript"}-->
 ```javascript
 var a = 123
@@ -587,6 +595,29 @@ a = 123
     "binField": "number",
     "stackField": "year"
    }
+  },
+  "6591cad2-b42a-4e4b-95cb-f6aad0da6465": {
+   "chartKey": "6591cad2-b42a-4e4b-95cb-f6aad0da6465",
+   "createTime": 1774323716417,
+   "renderType": "Markdown",
+   "active": true,
+   "fetchPeriod": 0,
+   "plotCode": "",
+   "text": "",
+   "selectedCategoryFrom": "",
+   "selectedCategory": "",
+   "selectedProperties": [],
+   "selectedDb": "",
+   "chartData": [],
+   "emptyFills": {},
+   "castColumns": {},
+   "joinColumns": {},
+   "createColumns": {},
+   "configColumns": {},
+   "hideColumns": [],
+   "chartColumns": [],
+   "type": "",
+   "options": {}
   }
  },
  "layouts": {
@@ -648,6 +679,19 @@ a = 123
     "h": 4,
     "x": 0,
     "y": 24,
+    "i": "6591cad2-b42a-4e4b-95cb-f6aad0da6465",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 3,
+    "h": 4,
+    "x": 3,
+    "y": 24,
     "i": "add",
     "minW": 2,
     "minH": 3,
@@ -671,13 +715,19 @@ a = 123
 ```
 
 <!--{"pinCode":false,"dname":"bd2b9d7d-1064-42bd-8e88-c5f3c2b6b939","codeMode":"markdown"}-->
+```md
 ##### abc
+```
 
 <!--{"pinCode":false,"dname":"70da9823-259b-42c3-ac9f-8d02cebb4fba","codeMode":"markdown"}-->
+```md
 # Search + Table
+```
 
 <!--{"pinCode":false,"dname":"2f437ade-4b5c-447d-b507-e07cd395b00b","codeMode":"markdown"}-->
+```md
 Using undefined and undefined. Data from <a href="https://catalog.data.gov/dataset/most-popular-baby-names" target="_blank" title="California Department of Public Health">CDPH</a>.
+```
 
 <!--{"pinCode":false,"dname":"934f751c-48dd-4c42-9b3c-dafcb93ef57a","codeMode":"js"}-->
 ```js
@@ -690,7 +740,7 @@ viewof search = (Inputs.search(data))
 ```
 
 <!--{"pinCode":false,"dname":"7e03854b-fb6a-46d6-8bcc-944ef2a8f8d3","codeMode":"js"}-->
-```js
+````js
 Inputs.table(search, {
   format: {
     Year: d3.format("d") // format as "1960" rather than "1,960"
@@ -709,7 +759,7 @@ Using the [bin transform](/plot/transforms/bin) and [rect mark](/plot/marks/rect
 <!--{"pinCode":false,"dname":"c1e6f863-c7f7-4571-aceb-765b192cc9d0","codeMode":"js"}-->
 ```js
 data = (FileAttachment("penguins.csv").csv({typed: true}))
-```
+````
 
 <!--{"pinCode":false,"dname":"eee26a64-81ce-493e-aac7-f3ee54e6f9ad","codeMode":"js"}-->
 ```js
