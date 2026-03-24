@@ -25,3 +25,35 @@ land = (topojson.feature(land50m, land50m.objects.land))
 ```js
 land50m = (FileAttachment("land-50m.json").json())
 ```
+
+<!--{"pinCode":true,"dname":"2c65cc2a-173f-4170-8fdf-944c81b9c2ed","codeMode":"js"}-->
+```js
+import { db } from './9.md'
+```
+
+<!--{"pinCode":true,"dname":"dda08478-e3ca-4480-8ece-7ae94ac67658","codeMode":"js"}-->
+```js
+db
+```
+
+<!--{"pinCode":true,"dname":"623cb48f-3f88-48dc-88b3-ccda6264f258","codeMode":"js"}-->
+```js
+viewof select = render(({ useSetter }) => {
+    const { Select } = Antd;
+    const handleChange = (value) => {
+        console.log(`selected ${value}`);
+    };
+    useSetter({});
+    return jsx`<${Select} key='cc9984ab-ca4c-4f07-88d6-2ebd939d8d54'
+        defaultValue="lucy"
+        style=${{ width: 120 }}
+        onChange=${handleChange}
+        options=${[
+            { value: "jack", label: "Jack" },
+            { value: "lucy", label: "Lucy" },
+            { value: "disabled", disabled: true, label: "Disabled" },
+            { value: "Yiminghe", label: "yiminghe" },
+        ]}
+    />`;
+})
+```
