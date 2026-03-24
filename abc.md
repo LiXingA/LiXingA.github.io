@@ -1,5 +1,5 @@
 ```sql
-{"db":"files$penguins$csv","selectedTable":"files$penguins$csv","selectedCategoryFrom":"files","selectedCategory":"files/penguins.csv","value":"SELECT * FROM `files$penguins$csv` t LIMIT 100","pinCode":true,"codeMode":"sql","sqlType":"sqlite"}
+{"value":"SELECT * FROM `files$penguins$csv` t LIMIT 100","pinCode":true,"codeMode":"sql","db":"files$penguins$csv","selectedTable":"files$penguins$csv","selectedCategoryFrom":"files","selectedCategory":"files/penguins.csv","sqlType":"sqlite"}
 ```
 
 ```sql
@@ -702,7 +702,86 @@ a = 123
    }
   ],
   "sm": [],
-  "xxs": []
+  "xxs": [
+   {
+    "w": 2,
+    "h": 12,
+    "x": 0,
+    "y": 0,
+    "i": "895c11a9-7fd1-4b6b-9d3c-1c680d64e155",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 2,
+    "h": 12,
+    "x": 0,
+    "y": 12,
+    "i": "b0b8b864-31c5-44cc-bd55-a5bb0b8df278",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 2,
+    "h": 12,
+    "x": 0,
+    "y": 24,
+    "i": "a709dc29-e6af-4d17-a818-344817030226",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 2,
+    "h": 12,
+    "x": 0,
+    "y": 36,
+    "i": "87c532f3-a60d-4aa4-b1bf-7565c80b810b",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 2,
+    "h": 4,
+    "x": 0,
+    "y": 48,
+    "i": "6591cad2-b42a-4e4b-95cb-f6aad0da6465",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+   },
+   {
+    "w": 2,
+    "h": 4,
+    "x": 0,
+    "y": 52,
+    "i": "add",
+    "minW": 2,
+    "minH": 3,
+    "moved": false,
+    "static": false,
+    "isDraggable": false,
+    "isResizable": false
+   }
+  ]
  },
  "dname": "f56f4202-d4eb-4a67-ba92-6026d5cc4d2d",
  "lock": false,
