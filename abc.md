@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--{"pinCode":true,"dname":"d4b1cebf-7940-4ebf-8ade-485bd2600ac9","codeMode":"javascript"}-->
 ```javascript
 var a = 123
@@ -721,6 +720,5 @@ Plot.plot({
     Plot.rectY(data, Plot.binX({y: "count"}, {x: "flipper_length_mm", fill: "sex"})),
     Plot.ruleY([0])
   ]
->>>>>>> 12c7f4050adf47f350641dd8246ad8621fe6bfd5
 })
 ```
