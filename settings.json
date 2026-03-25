@@ -15,7 +15,7 @@
   "mask": false,
   "displayHistory": false,
   "reserveSpace": false,
-  "minimap": false,
+  "minimap": true,
   "fullscreenNoPadding": true,
   "imageQuality": 0.5,
   "jsPdfFont": "",
